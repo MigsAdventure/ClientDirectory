@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "plugin": "react", "babel",
+  "globals": { "describe": true, "it": true },
+  "rules": {
+    jsx-quotes: ["error", "prefer-single"],
+     react/jsx-filename-extension: 0,
+     no-underscore-dangle: 0,
+     no-console: ["error", { allow: ["warn", "error", "log"] }],
+     class-methods-use-this: 0,
+     default-case: 0,
+  }
+}
